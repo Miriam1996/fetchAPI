@@ -7,7 +7,7 @@ from pydantic import BaseModel
 import uuid
 
 app = FastAPI()
-memo = {"6768585": "5"}
+memo = {}
 
 class ReceiptsItem(BaseModel):
     shortDescription: str
