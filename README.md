@@ -1,9 +1,9 @@
 # fetchAPI
 creating apis to fetch assignment
-#clone repo
+# clone repo
 clone repo git clone: https://github.com/Miriam1996/fetchAPI
 cd into folder 
-#docker steps
+# docker steps
 build docker command: 
 docker build  -t fetchapi
 docker run -p 80:80 fetchapi
